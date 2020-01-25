@@ -167,7 +167,6 @@ public class SQRT
 							numVals[i] = 0;
 						}
 					}
-					//System.out.println("(" + nums[i] + ") inputNumber = " + ourNumber[0]);
 				});
 			
 
@@ -192,32 +191,7 @@ public class SQRT
 			} );
 		
 		float residue = ourNumber[3] * ourNumber[0];
-		
-		if(residue > 1)
-		{
-			//System.out.println(ourNumber[2] + " * sqrt(" + residue + ")");
-		}
-		else
-		{
-			//System.out.println(ourNumber[2]);
-		}
-			
-/*		
-		float resultingNumber = 0;
-		float residue = 0;
-		
-		if( numTwos > 1 )
-		{
-			float j = numTwos % 2;
-			
-			if( j > 0 )
-			{
-				residue += j * 2;
-			}
-			
-			residue += ( numTwos - j) / 2;
-		}
-*/		
+
 		return Pair.with(ourNumber[2], residue);
 	}
 }
