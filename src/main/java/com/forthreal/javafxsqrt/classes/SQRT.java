@@ -1,3 +1,8 @@
+/*
+ * Author: Lev Vanyan
+ * Lev.Vanyan@forthreal.com
+ */
+
 package com.forthreal.javafxsqrt.classes;
 
 import java.util.Arrays;
